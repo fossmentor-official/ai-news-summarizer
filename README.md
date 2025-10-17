@@ -1,14 +1,14 @@
 📰 News Summarizer – Hugging Face + Streamlit + Dev Container
 
-A simple **Streamlit app** that fetches and summarizes online news articles using **Hugging Face Transformers** (BART, PEGASUS, or T5).
+This project summarizes online news articles using the **Hugging Face Transformers** model (`facebook/bart-large-cnn` by default).
 
-
-⚙️ Features
-
-✅ Fetches full article text using newspaper3k
-✅ Summarizes with facebook/bart-large-cnn or PEGASUS
-✅ Interactive Streamlit interface
-✅ Works inside VS Code Dev Container
+## ✨ Features
+- Summarizes any article URL automatically
+- Uses `newspaper3k` to extract clean text
+- Flask API endpoint for integration
+- CLI support (`python cli.py --url <article_url>`)
+- Fully containerized for reproducibility
+- Ready to run inside VS Code **Dev Container**
 
 ⚙️ How to Run (Locally or Dev Container)
 
@@ -54,35 +54,3 @@ A simple **Streamlit app** that fetches and summarizes online news articles usin
 
 🪪 License
 MIT License © 2025 Fossmentor Official
-
-
-
-
-
-
-0------------
-
-# 📰 News Summarizer – Hugging Face + Flask + Dev Container
-
-This project summarizes online news articles using the **Hugging Face Transformers** model (`facebook/bart-large-cnn` by default).
-
-## ✨ Features
-- Summarizes any article URL automatically
-- Uses `newspaper3k` to extract clean text
-- Flask API endpoint for integration
-- CLI support (`python cli.py --url <article_url>`)
-- Fully containerized for reproducibility
-- Ready to run inside VS Code **Dev Container**
-
----
-
-## ⚙️ How to Run (Locally or Dev Container)
-
-1. Open this folder in **VS Code**
-2. Install **Dev Containers** extension
-3. When prompted:  
-   **“Reopen in Container”**
-4. Once inside the container, run:
-
-```bash
-python app.py
