@@ -19,13 +19,6 @@ This project summarizes online news articles using the **Hugging Face Transforme
    ```bash
    streamlit run app.py
 
-
-🌍 Future Improvements
-  * Fetch real-time comments from Facebook/Twitter APIs
-  * Add visual sentiment charts
-  * Support multiple languages
-  * Save results to CSV or database
-
 <!-- Actual text -->
 ## Find me on
 [![Facebook][1.2]][1] [![LinkedIn][2.2]][2] [![Instagram][3.2]][3]
