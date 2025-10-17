@@ -1,0 +1,7 @@
+newspaper3k==0.2.8
+transformers>=4.30.0
+torch>=1.13.0
+streamlit>=1.25.0
+tqdm
+python-dotenv
+lxml_html_clean
