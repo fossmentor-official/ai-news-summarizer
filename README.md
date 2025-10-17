@@ -46,7 +46,7 @@ A simple **Streamlit app** that fetches and summarizes online news articles usin
  I will be happy to assist 
 # 
 ## want something improved or added?
-  > Fork the repo @ [GitHub](https://github.com/fossmentor-official/text-sentiment-analyzer)
+  > Fork the repo @ [GitHub](https://github.com/fossmentor-official/ai-news-summarizer)
 # 
 ## Regards,
  > [Fossmentor](https://fossmentor.com)
